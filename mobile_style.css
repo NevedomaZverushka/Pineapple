@@ -1,0 +1,207 @@
+@media screen and (max-device-width: 425px) {
+    body {
+        width: 100%;
+        background-repeat: round no-repeat;
+    }
+
+    #templatemo_wrapper {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #templatemo_header {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    #site_title h1 a {
+        width: 340px;
+        background-size: contain;
+    }
+
+    #templatemo_menu {
+        height: fit-content;
+        background-color: #e7cb45;
+        width: 100%;
+    }
+    #menu_icons {
+        float: right;
+        display: flex;
+        text-align: right;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+    }
+    #menu_icons #open_menu_btn {
+        font-size: 46px;
+    }
+    #menu_list .close_menu_btn {
+        width: calc(100% - 55px);
+        text-align: right;
+        font-size: 96px;
+        margin: 10% 0;
+        display: block;
+    }
+    #menu_icons span {
+        padding: 2% 10% 2% 0;
+    }
+    #menu_icons span img {
+        width: 40px;
+        height: 40px;
+    }
+    #menu_list,
+    #search_box {
+        display: none;
+    }
+    #menu_list {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #e7cb45;
+        flex-direction: column;
+        justify-content: flex-start;
+        z-index: 10;
+        top: 0;
+    }
+    #templatemo_menu ul li {
+        width: 100%;
+    }
+    #templatemo_menu ul li a {
+        font-size: 76px;
+        width: 100%;
+        margin: 5% 0;
+        line-height: 100px;
+        height: fit-content;
+        padding-bottom: 2%;
+    }
+    #templatemo_menu ul li .current,
+    #templatemo_menu ul li a:hover {
+        background: linear-gradient(#f7ebb3, #edd048) !important;
+    }
+    #search_box {
+        margin-left: 5%;
+        width: 35%;
+        float: left;
+        height: 40px;
+        background-size: cover;
+        background-position: center;
+    }
+    #search_box form {
+        width: 100%;
+    }
+    #search_box #searchfield {
+        width: 80%;
+        font-size: 20px;
+        height: 40px;
+    }
+    #search_box #searchbutton {
+        width: 20%;
+    }
+
+    .content_box,
+    .project_collection {
+        padding: 3% 6% 0 6%;
+    }
+    .project_collection {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .pc_box {
+        width: 100%;
+        margin-top: 5%;
+    }
+    .pc_box_image {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 8%;
+        margin-bottom: -2%;
+    }
+    .pc_box_image span {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        top: -10%;
+    }
+    .pc_box_image img {
+        width: 90%;
+        height: 100%;
+    }
+
+    #templatemo_footer_wrapper {
+        height: fit-content;
+        background-size: contain;
+        /*padding-top: 5%;*/
+        width: 100%;
+    }
+    #templatemo_footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        align-items: stretch;
+        justify-content: center;
+        background-size: cover;
+        flex: 1;
+        margin-right: 0;
+    }
+    .footer_box {
+        width: 93%;
+        padding: 2% 6%;
+    }
+    .footer_box>a>img {
+        width: 8%;
+        height: 8%;
+    }
+    .footer_list {
+        margin: 5% 0;
+    }
+    .footer_link_last {
+        display: flex;
+    }
+
+    #copyright {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        padding: 5% 0;
+        margin: 0;
+    }
+    #copyright .right {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #copyright .left {
+        text-align: center;
+        margin-left: -5%;
+        margin-top: 5%;
+    }
+    #copyright>.right>a {
+        font-size: 38px;
+        flex: 1 1 30%;
+        margin-bottom: 5%;
+    }
+
+    a.more {
+        margin: 5% auto;
+        width: 40%;
+        background-size: cover;
+        background-position: center;
+        text-align: right;
+        height: 80px;
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
